@@ -1,0 +1,74 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+  border-radius: 50px;
+  width: 500px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.app-join {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: white;
+  color: lightgray;
+  font-weight: 700;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#join-text {
+  color: hsl(179, 62%, 43%);
+}
+
+#advertising {
+  color: hsl(71, 73%, 54%);
+}
+
+.app-subscribe {
+  align-content: center;
+  align-items: center;
+  background-color: hsl(179, 61%, 44%);
+  color: hsl(204, 43%, 93%);
+  text-align: left;
+  border-bottom-left-radius: 5px;
+  max-height: 250px;
+}
+
+#price {
+  font-size: 32px;
+  font-style: bold;
+  font-weight: 700;
+}
+.app-sign-button {
+  width: 80%;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  border: none;
+}
+
+.app-about {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  background-color: hsl(179, 47%, 52%);
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  border-bottom-right-radius: 5px;
+  max-height: 250px;
+  justify-content: center;
+}
