@@ -12,6 +12,11 @@ body {
   width: 500px;
   max-width: 500px;
   max-height: 500px;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 20%;
+  right: 20%;
 }
 
 .app-join {
@@ -22,6 +27,7 @@ body {
   font-weight: 700;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  padding: 5%;
 }
 
 #join-text {
@@ -40,12 +46,23 @@ body {
   text-align: left;
   border-bottom-left-radius: 5px;
   max-height: 250px;
+  padding: 5%;
 }
-
-#price {
+#app-offer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+#app-price {
   font-size: 32px;
   font-style: bold;
   font-weight: 700;
+  display: flex;
+}
+
+#month {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
 }
 .app-sign-button {
   width: 80%;
@@ -71,4 +88,5 @@ body {
   border-bottom-right-radius: 5px;
   max-height: 250px;
   justify-content: center;
+  padding: 5%;
 }
