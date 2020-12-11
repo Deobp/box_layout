@@ -2,6 +2,10 @@ body {
   background-color: hsl(204, 43%, 93%);
   font-size: 16px;
   font-family: "Karla", sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .app {
@@ -9,22 +13,16 @@ body {
   grid-template-columns: repeat(2, 1fr);
   text-align: left;
   border-radius: 50px;
-  width: 500px;
-  max-width: 500px;
-  max-height: 500px;
-  position: absolute;
-  top: 20%;
-  bottom: 20%;
-  left: 20%;
-  right: 20%;
+  width: 650px;
+  box-shadow: 0px 0px 20px gray;
 }
 
 .app-join {
   grid-column-start: 1;
   grid-column-end: 3;
   background-color: white;
-  color: lightgray;
-  font-weight: 700;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 5%;
@@ -39,8 +37,6 @@ body {
 }
 
 .app-subscribe {
-  align-content: center;
-  align-items: center;
   background-color: hsl(179, 61%, 44%);
   color: hsl(204, 43%, 93%);
   text-align: left;
@@ -73,6 +69,9 @@ body {
   border-radius: 5px;
   font-family: "Karla", sans-serif;
   border: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .app-about {
@@ -89,4 +88,11 @@ body {
   max-height: 250px;
   justify-content: center;
   padding: 5%;
+}
+
+.app-list,
+.app-why-us {
+  list-style-type: none;
+  width: 100%;
+  text-align: left;
 }
