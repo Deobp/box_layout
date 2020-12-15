@@ -41,12 +41,12 @@ body {
   color: hsl(204, 43%, 93%);
   text-align: left;
   border-bottom-left-radius: 5px;
-  padding: 5%;
+  padding: 10%;
 }
 
 #app-offer {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
 }
 
 #app-price {
@@ -59,9 +59,9 @@ body {
   display: flex;
   font-size: 16px;
   align-items: center;
+  color: hsl(204, 43%, 93%);
 }
 .app-sign-button {
-  width: 80%;
   background-color: hsl(71, 73%, 54%);
   color: white;
   align-items: center;
@@ -71,7 +71,8 @@ body {
   border: none;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0;
+  width: 250px;
 }
 
 .app-about {
@@ -87,7 +88,7 @@ body {
   border-bottom-right-radius: 5px;
   max-height: 250px;
   justify-content: center;
-  padding: 5%;
+  padding: 10%;
 }
 
 .app-list,
@@ -95,7 +96,7 @@ body {
   list-style-type: none;
   width: 100%;
   text-align: left;
-  padding: 5%;
+  padding-left: 5%;
 }
 .app-why-us {
   margin-bottom: 0;
@@ -103,5 +104,5 @@ body {
 }
 
 .app-list {
-  margin-top: 0;
+  margin-top: 5%;
 }
