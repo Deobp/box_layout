@@ -112,4 +112,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .app-sign-button {
+    width: 100%;
+  }
 }
